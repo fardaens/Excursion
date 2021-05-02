@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+  margin-top: 20px;
+}
+
+h1 {
+  color: white;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+}
+
+#app-preview {
+  display:flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-link a {
+  color: aquamarine;
+}
