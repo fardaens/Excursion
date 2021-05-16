@@ -9,7 +9,7 @@ html{
 
 body {
   background-color: black;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 h1 {
@@ -20,12 +20,83 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: white;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  font-family: Verdana
+}
+
 #app-preview {
   display:flex;
   justify-content: center;
+  margin-top: 40px;
+}
+
+#app-preview a {
+  color: aquamarine;
+}
+
+#app-video {
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#your-personal-travel-guide {
+  display:block;
+  margin-top: 40px;
+}
+
+#your-personal-travel-guide p {
+  color: gray;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 21px;
+  text-align: center;
+}
+
+#your-personal-travel-guide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
 }
 
-.download-link a {
+#coming-soon {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#coming-soon a {
   color: aquamarine;
+  margin-top: 40px;
+}
+
+#coming-soon h2 {
+  margin-bottom: 40px;
+}
+
+#coming-soon img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#copyright p {
+  text-align: right;
+  color: gray;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 21px;
 }
